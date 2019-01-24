@@ -1,0 +1,56 @@
+ *{
+    font-family: 'Open sans', serif;
+ }
+ body{
+     margin: 0;
+  }
+ .navbar{
+    background-image: url("../bild/transparent-navbar.png");
+    overflow: hidden;
+ }
+ .navlist{
+    display: block;
+    color: #f2f2f2;
+    padding: 2px;
+    text-decoration: none;
+    text-align: left;
+ }
+.navlist li {
+    display: inline-block; 
+ }
+ .navlist li a{
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+ }
+ .navlist li a:hover{
+    color: pink;
+    text-decoration: underline;
+ }
+ .text-center{
+    text-align: center;
+ } 
+ .bg{
+     font-family: 'Nanum Gothic', sans-serif;
+     background-image: url("../bild/bg.jpg");
+     background-position: center;
+     background-size: cover;
+     padding: 120px;
+     font-size: 40px;
+     text-align: center;
+     color: white;  
+ }
+ .feet{
+    background-image: url("../bild/transparent-navbar.png");
+    overflow: hidden;
+ }
+ .feeter{
+    text-align: left;
+ }
+ .feeter li {
+    display: inline-block; 
+ }
+ .feeter li a{
+    color: white;
+    text-decoration: none;
+ }
