@@ -4,41 +4,24 @@
  body{
      margin: 0;
   }
- .navbar{
-    background-image: url("../bild/transparent-navbar.png");
-    overflow: hidden;
- }
- .navlist{
-    display: block;
-    color: #f2f2f2;
-    padding: 2px;
-    text-decoration: none;
-    text-align: left;
- }
-.navlist li {
-    display: inline-block; 
- }
- .navlist li a{
-    color: white;
-    margin: 0 20px;
-    text-decoration: none;
- }
- .navlist li a:hover{
-    color: pink;
-    text-decoration: underline;
- }
+
  .text-center{
     text-align: center;
  } 
+ .navbar{
+   background-image: url("../bild/transparent-navbar.png");
+   overflow: hidden;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+   color: white;  
+}
  .bg{
      font-family: 'Nanum Gothic', sans-serif;
      background-image: url("../bild/bg.jpg");
      background-position: center;
      background-size: cover;
      padding: 120px;
-     font-size: 40px;
-     text-align: center;
-     color: white;  
  }
  .feet{
     background-image: url("../bild/transparent-navbar.png");
@@ -53,4 +36,10 @@
  .feeter li a{
     color: white;
     text-decoration: none;
+ }
+ .projects{
+   padding: 1em 20px 1em;
+ }
+ .dab{
+    font-size: 40px;
  }
