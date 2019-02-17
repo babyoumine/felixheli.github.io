@@ -14,7 +14,7 @@ h1 {
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
-  font-size: calc(2em + 5vw);
+  font-size: calc(400%);
   white-space: nowrap;
   animation: textAnimate 5s linear infinite alternate;
   background: linear-gradient( 92deg, #95d7e3, #eb76ff );
