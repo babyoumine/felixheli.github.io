@@ -8,7 +8,7 @@ body {
 h1 {
   position: relative;
   text-align: center;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
   font-size: calc(300%);
   white-space: nowrap;
@@ -28,6 +28,13 @@ h1 {
     box-shadow: 2px 4px 2px rgba(0,0,0,0.50);
     z-index: -1;
   }
+}
+
+.docu{
+  color: azure;
+  position: relative;
+  text-align: start;
+  font-size: 80%;
 }
 
 .ok {
@@ -71,13 +78,13 @@ h1 {
 }
 
 a:link {
-  color: white; 
+  color: bisque; 
   background-color: transparent; 
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: bisque;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -89,7 +96,7 @@ a:hover {
 }
 
 a:active {
-  color: white;
+  color: bisque;
   background-color: transparent;
   text-decoration: underline;
 }
